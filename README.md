@@ -32,8 +32,8 @@ Projeto-DoeFacil/
 │   ├── Models/       # Usuario, Doacao, Login
 │   ├── Repositories/ # DoacaoRepository, UsuarioRepositorio, LoginRepositorio
 │   └── ConexaoDB.cs  # Classe de conexão SQLite
-├── frontend caminho: C:\SUA_PASTA\Projeto-DoeFacil-master\projeto extensao\projeto-Ext      # Páginas HTML, CSS, JS (login, cadastro, doar, receber, histórico)
-├── database caminho: C:\SUA_PASTA\Projeto-DoeFacil-master\projeto extensao\DB       # Arquivo SQLite e scripts de criação de tabelas
+├── frontend caminho: C:\SUA_PASTA\Projeto-DoeFacil-mains\projeto extensao\projeto-Ext      # Páginas HTML, CSS, JS (login, cadastro, doar, receber, histórico)
+├── database caminho: C:\SUA_PASTA\Projeto-DoeFacil-main\projeto extensao\DB       # Arquivo SQLite e scripts de criação de tabelas
 
 ```
 
@@ -45,7 +45,7 @@ Projeto-DoeFacil/
 
 **Etapa 2:**
 
-* Abra o Explorador de Arquivos e navegue até o caminho: `C:\SUA_PASTA\Projeto-DoeFacil-master\projeto extensao\back-end\ProjetoDoacao`.
+* Abra o Explorador de Arquivos e navegue até o caminho: `C:\SUA_PASTA\Projeto-DoeFacil-main\projeto extensao\back-end\ProjetoDoacao`.
 * É necessário ter o **Visual Studio Code** instalado para dar dois cliques e abrir o arquivo **ProjetoDoacao.sln**.
 
 **Etapa 3:**
@@ -54,7 +54,7 @@ Projeto-DoeFacil/
 
 **Etapa 4:**
 
-* Em `appsettings.json`, localize a linha que define o caminho do banco de dados ( linha que contém "DefaultConnection": "Data Source=C:\\Projeto_GIT\\Projeto-DoeFacil-master\\projeto extensao\\DB\\projeto.db")
+* Em `appsettings.json`, localize a linha que define o caminho do banco de dados ( linha que contém "DefaultConnection": "Data Source=C:\\Projeto_GIT\\Projeto-DoeFacil-main\\projeto extensao\\DB\\projeto.db")
 * Apague o trecho de caminho atual (ficará desta forma após apagado: "DefaultConnection": "Data Source=DB\\projeto.db").
 * Abra o Explorador de Arquivos, acesse a pasta "DB".
 * Copie este caminho e cole no lugar do texto apagado no `appsettings.json` (deverá ficar desta forma: "DefaultConnection": "Data Source=C:\\SUA_PASTA \\Projeto-DoeFacil-master\\projeto extensao\\DB\\projeto.db"
@@ -65,7 +65,7 @@ Projeto-DoeFacil/
 
 **Etapa 6:**
 
-* No Explorador de Arquivos, navegue até `C:\SUA_PASTA\Projeto-DoeFacil-master\projeto extensao\projeto-Ext\login.html`.
+* No Explorador de Arquivos, navegue até `C:\SUA_PASTA\Projeto-DoeFacil-main\projeto extensao\projeto-Ext\login.html`.
 * Dê dois cliques em **login.html** para abri-lo no navegador e usar a aplicação.
 
 ## 4. Manual do Usuário
